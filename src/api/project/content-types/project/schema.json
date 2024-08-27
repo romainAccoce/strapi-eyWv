@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "name": {
       "type": "string"
     },
     "description": {
@@ -32,8 +32,14 @@
         "audios"
       ]
     },
-    "links": {
+    "techs": {
       "type": "json"
+    },
+    "url": {
+      "type": "string"
+    },
+    "githubLink": {
+      "type": "string"
     }
   }
 }

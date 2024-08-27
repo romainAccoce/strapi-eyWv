@@ -374,11 +374,13 @@ export interface ApiProjectProject extends Schema.CollectionType {
     draftAndPublish: true;
   };
   attributes: {
-    title: Attribute.String;
+    name: Attribute.String;
     description: Attribute.Text;
     order: Attribute.Integer;
     image: Attribute.Media;
-    links: Attribute.JSON;
+    techs: Attribute.JSON;
+    url: Attribute.String;
+    githubLink: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
